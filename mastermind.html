@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mastermind</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row row-custom">
+      <div class="col-12 col-md-8 col-lg-5">
+        <div class="playground">
+          <div class="header">
+            <h1><a href="">Mastermind</a></h1>
+            <h2>By Léo Mouraire</h2>
+            <div class="d-flex">
+              <div class="color color-1"></div>
+              <div class="color color-2"></div>
+              <div class="color color-3"></div>
+              <div class="color color-4"></div>
+            </div>
+          </div>
+          <div class="container-play">
+            <h3>Choose difficulty</h3>
+            <div>
+              <button class="difficulty">4</button>
+            </div>
+            <div>
+              <button class="difficulty">6</button>
+            </div>
+            <div>
+              <button class="difficulty">8</button>
+            </div>
+            <div>
+              <button class="difficulty">10</button>
+            </div>
+          </div>
+          <div class="game-on">
+            <div class="row">
+              <div class="col-12">
+                <div id="results" class="results row">
+                  <!-- <div class="result1"></div>
+                  <div class="result2"></div>
+                  <div class="result3"></div>
+                  <div class="result4"></div> -->
+                </div>
+              </div>
+              <div class="col-12">
+                <div id="form" class="form row">
+                  <input type="text" class="input-attempt col-2">
+                  <input type="text" class="input-attempt col-2">
+                  <input type="text" class="input-attempt col-2">
+                  <input type="text" class="input-attempt col-2">
+                </div>
+              </div>
+              <div class="col-12">
+                <button id="clear">Clear</button>
+                <button id="submit">Submit</button>
+                <div id="game-over">
+                  <div id="win-state">
+                    Win?Loose?
+                  </div>
+                  <a id="retry" href="">Retry</a>
+                </div>
+              </div>
+              <div class="col-12">
+                <div id="help">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+             2019 Léo Mouraire Incorporated
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- <div class="col">
+    <div class="row">
+      <input type="number" class="input-attempt col-3">
+      <input type="number" class="input-attempt col-3">
+      <input type="number" class="input-attempt col-3">
+      <input type="number" class="input-attempt col-3">
+    </div>
+    <button id="submit" class="btn btn-outline-success">Tester</button>
+    <button id="retry" class="btn btn-success" disabled>Retry</button>
+  </div> -->
+
+<script src="main.js"></script>
+
+</body>
+</html>
